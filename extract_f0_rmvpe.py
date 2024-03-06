@@ -116,7 +116,8 @@ if __name__ == "__main__":
     try:
         featureInput.go(paths[i_part::n_part], "rmvpe")
     except:
-        printt("f0_all_fail-%s" % (traceback.format_exc()))
+        pass
+        #printt("f0_all_fail-%s" % (traceback.format_exc()))
     # ps = []
     # for i in range(n_p):
     #     p = Process(
